@@ -1,8 +1,7 @@
 def parseFireHistory():
-
     fireDict = {}
 
-    with open("Fires_100 - 2017.csv", "r") as data2017:
+    with open("data/fires/Fires_100 - 2017.csv", "r") as data2017:
         fireData = []
         lines = data2017.readlines()
         for line in lines:
@@ -11,7 +10,7 @@ def parseFireHistory():
             fireData.append(fire) 
         fireDict["2017"] = fireData
 
-    with open("Fires_100 - 2016.csv", "r") as data2017:
+    with open("data/fires/Fires_100 - 2016.csv", "r") as data2017:
         fireData = []
         lines = data2017.readlines()
         for line in lines:
@@ -19,7 +18,7 @@ def parseFireHistory():
             fireData.append(fire)
         fireDict["2016"] = fireData
 
-    with open("Fires_100 - 2015.csv", "r") as data2017:
+    with open("data/fires/Fires_100 - 2015.csv", "r") as data2017:
         fireData = []
         lines = data2017.readlines()
         for line in lines:
@@ -30,6 +29,3 @@ def parseFireHistory():
         fireDict["2015"] = fireData
 
     return fireDict
-
-
-
