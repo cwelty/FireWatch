@@ -2,7 +2,7 @@
 # https://github.com/sendgrid/sendgrid-python
 import sendgrid
 import os
-from sendgrid.helpers.mail import *
+from sendgrid.helpers.mail import Email, Content, Mail
 
 api_key = "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"
 
