@@ -1,0 +1,43 @@
+body {
+    overflow: hidden;
+    font-family: "Pontano Sans", sans-serif;
+}
+
+.base {
+    background: #f46b45;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    color: white;
+}
+.top {
+    padding-top: 5%;
+}
+.base h1 {
+    letter-spacing: 10px;
+    padding-left: 15%;
+    display: inline;
+}
+.base nav {
+    letter-spacing: 2px;
+    padding-right: 15%;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    float: right;
+
+}
+
+.map {
+    margin: 0 auto;
+    background: white;
+    width: 70%;
+    margin-top: 5%;
+    padding-top: 90%;
+    text-align: center;
+
+}
