@@ -39,7 +39,7 @@ def parseFireCoord2017():
             fire = line.split(",")
             fireData.append(fire)
 
-    mismatches = [[x[1] + " FIRE", x[2]] for x in fireData if x[0] not in results.keys()] 
+        mismatches = [[x[0] + " FIRE", x[1]] for x in fireData if x[0] not in results.keys()] 
 
     fireData = [x for x in fireData if x[0] in results.keys()] + mismatches
     fireData = [x for x in fireData if x[0] in results.keys()]
