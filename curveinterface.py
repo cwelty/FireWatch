@@ -18,11 +18,22 @@ def predict(coords):  # coords is a LIST of [x, y]: [[x1,y1], [x2,y2], [x3,y3]]
 
     burn_scores = []
     for coordinate in coords:
-        y = (float(coordinate[1]) - 32.6) * 52.3  # scale to biome map dimensions
-        x = (-1 * (float(coordinate[0])) - 114) * 34
+        #top: 42 long
+        #bottom: 32 long
+        #left: 125 lat
+        #right 114 lat
 
-        coord = str(x) + "," + str(y)
+        #image: 434 x by 491 y
+
+        #x: -(x - 114) * 43.4
+        #y: (y - 32) * 49.1
+
+        y = (float(coordinate[1]) - 32) * 49.1 - 1  # scale to biome map dimensions
+        x = (1 - (float(coordinate[0]) - 114)/11) * 433 + 1
+
+        coord = str(int(x)) + "," + str(int(y))
         components = collected_data[coord]
+        #print(collected_data.keys())
 
         biome = components[0]
         precipitation = components[1]
@@ -32,4 +43,4 @@ def predict(coords):  # coords is a LIST of [x, y]: [[x1,y1], [x2,y2], [x3,y3]]
 
     return burn_scores # it returns a list of floats, cooresponding to the coordinates inputted
 
-#print(predict_pixel(123, 123))
+#print(predict([[124, 42]]))
