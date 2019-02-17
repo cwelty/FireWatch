@@ -1,4 +1,4 @@
-import gauss
+import curves.gauss
 
 
 # uses gauss elimination to determine the curve fitting coefficients
@@ -6,7 +6,7 @@ def calculate_coefficients(input_matrix, output_matrix):
     augmented = input_matrix
     for row in range(len(input_matrix)):
         augmented[row].append(output_matrix[row])
-    reduced = gauss.row_reduce(augmented)
+    reduced = curves.gauss.row_reduce(augmented)
     
     coefficients = []
     for row in range(len(reduced)):
@@ -32,7 +32,14 @@ def polynomial_regression(input_data, output_data):
         results = calculate_coefficients(input_matrix, output_matrix)  # finds the coefficients using these subsets
         # adjusts each coefficient slightly (less so with more input)
         # NOTE: We may get better results with using a non-one power of n (sqrt n, n^2, etc), so training converges slower
-        for coefficient_index in range(results):  
-            coefficients[coefficient_index] += (results[coefficient_index]-coefficients[coefficient_index]) / trainings
-            
+        for coefficient_index in range(len(results)):  
+            adjustment = (results[coefficient_index]-coefficients[coefficient_index]) / (trainings ** 2)
+            if adjustment > 1:
+                coefficients[coefficient_index] += 0
+            elif adjustment < -1:
+                coefficients[coefficient_index] += 0
+            else:
+                coefficients[coefficient_index] += adjustment
+    
+    return coefficients
     

@@ -21,28 +21,33 @@ def row_reduce(matrix):
 
     # get zeros in initial column
     for row_index in range(1, len(matrix)):
-        print(matrix[row_index][0])
         matrix = scale_row(matrix, row_index, -1/matrix[row_index][0])
         matrix = add_rows(matrix, row_index, 0)
 
     # get ones in diagonal
     for row_index in range(1, len(matrix)):
+        if matrix[row_index][row_index] == 0:
+            matrix[row_index][row_index] = .0000000001
         matrix = scale_row(matrix, row_index, 1/matrix[row_index][row_index])
-    print(matrix)
+    #print(matrix)
 
     # for each row of each column, scale to -1 and add to diagonaled row
+
     for col_index in range(1, len(matrix[0])-1):
         for row_index in range(0, len(matrix)):
+            if len(matrix) == 1:
+                break
             if row_index == col_index:
                 continue
-            print("B" + " " + str(-matrix[col_index][col_index]/matrix[row_index][col_index]))
+            if matrix[row_index][col_index] == 0:
+                matrix[row_index][col_index] = .00000000001
+#            print("B" + " " + str(-matrix[col_index][col_index]/matrix[row_index][col_index]))
             matrix = scale_row(matrix, row_index, -matrix[col_index][col_index]/matrix[row_index][col_index])
             matrix = add_rows(matrix, row_index, col_index)
-            print(matrix[0])
-            print(matrix[1])
-            print(matrix[2])
+            #print(matrix[0])
+            #print(matrix[1])
+            #print(matrix[2])
             #input()
-    
     # scale to 1
     for row_index in range(len(matrix)):
         matrix = scale_row(matrix, row_index, 1/matrix[row_index][row_index])
