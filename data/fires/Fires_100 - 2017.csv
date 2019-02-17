@@ -1,183 +1,182 @@
-UNIT_ID,FIRE_NAME,ALARM_DATE,CAUSE
-Tulare County,DINELY,6/7/2017,2 - Equipment Use
-Tulare County,ROADRUNNER,7/30/2017,7 - Arson
-Tulare County,ELEPHANT 2,7/20/2017,7 - Arson
-Tehama - Glenn CAL FIRE,TEHAMA,10/30/2017,10 - Vehicle
-Tuolumne - Calaveras CAL FIRE,JACKSONVILLE,7/29/2017,14 - Unknown / Unidentified
-Tuolumne - Calaveras CAL FIRE,MARIA,7/17/2017,14 - Unknown / Unidentified
-Tuolumne - Calaveras CAL FIRE,TWIST,7/30/2017,14 - Unknown / Unidentified
-Tuolumne - Calaveras CAL FIRE,POINT,10/9/2017,11 - Powerline
-San Luis Obispo CAL FIRE,LUCY,6/14/2017,11 - Powerline
-San Luis Obispo CAL FIRE,OLIVE,7/24/2017,10 - Vehicle
-San Luis Obispo CAL FIRE,STONE,7/9/2017,2 - Equipment Use
-San Luis Obispo CAL FIRE,ALAMO,7/6/2017,10 - Vehicle
-San Luis Obispo CAL FIRE,HILL,6/26/2017,10 - Vehicle
-San Luis Obispo CAL FIRE,HUASNA,9/20/2017,2 - Equipment Use
-San Luis Obispo CAL FIRE,POLY,9/26/2017,2 - Equipment Use
-San Luis Obispo CAL FIRE,CAMP,5/15/2017,9 - Miscellaneous
-San Luis Obispo CAL FIRE,OLIVE,5/2/2017,10 - Vehicle
-Siskiyou CAL FIRE,FAY,7/5/2017,9 - Miscellaneous
-Siskiyou CAL FIRE,HILL,7/29/2017,2 - Equipment Use
-Shasta - Trinity CAL FIRE,LAVERNE,7/18/2017,9 - Miscellaneous
-Shasta - Trinity CAL FIRE,BERRY,9/12/2017,1 - Lightning
-Santa Clara CAL FIRE,CORAL,9/19/2017,14 - Unknown / Unidentified
-Santa Clara CAL FIRE,BALLY,9/3/2017,14 - Unknown / Unidentified
-Santa Clara CAL FIRE,FELIPE,7/10/2017,14 - Unknown / Unidentified
-Santa Clara CAL FIRE,LARIAT,7/11/2017,14 - Unknown / Unidentified
-Santa Barbara County,AIR,9/25/2017,2 - Equipment Use
-Santa Barbara County,CEBRIAM,6/25/2017,11 - Powerline
-Santa Barbara County,RUCKER,9/29/2017,10 - Vehicle
-Santa Barbara County,WASIOJA,5/20/2018,11 - Powerline
-Riverside CAL FIRE,LAMB,5/25/2017,14 - Unknown / Unidentified
-Riverside CAL FIRE,OPERA,4/30/2017,14 - Unknown / Unidentified
-Riverside CAL FIRE,ROSE,7/31/2017,2 - Equipment Use
-Riverside CAL FIRE,PALMER,9/2/2017,9 - Miscellaneous
-Riverside CAL FIRE,MIAS,8/14/2017,11 - Powerline
-Riverside CAL FIRE,BLAINE,8/13/2017,14 - Unknown / Unidentified
-Orange County,CANYON I,9/25/2017,9 - Miscellaneous
-Orange County,CANYON II,10/9/2017,5 - Debris
-Nevada - Yuba - Placer CAL FIRE,PLEASANT,8/30/2017,14 - Unknown / Unidentified
-Nevada - Yuba - Placer CAL FIRE,BEALE,8/20/2017,11 - Powerline
-Nevada - Yuba - Placer CAL FIRE,LOBO,10/8/2017,14 - Unknown / Unidentified
-San Diego CAL FIRE,LILAC,12/7/2017,14 - Unknown / Unidentified
-San Diego CAL FIRE,JENNINGS 2,7/11/2017,10 - Vehicle
-San Diego CAL FIRE,GATE,5/20/2017,9 - Miscellaneous
-San Diego CAL FIRE,ECLIPSE,8/21/2017,14 - Unknown / Unidentified
-San Diego CAL FIRE,BORDER 6,9/1/2017,14 - Unknown / Unidentified
-Madera - Mariposa CAL FIRE,PEAK,9/3/2017,10 - Vehicle
-Madera - Mariposa CAL FIRE,OAKWOOD,6/10/2017,9 - Miscellaneous
-Madera - Mariposa CAL FIRE,MISSION,9/3/2017,11 - Powerline
-Madera - Mariposa CAL FIRE,DETWILER,7/16/2017,9 - Miscellaneous
-Madera - Mariposa CAL FIRE,BEN,6/28/2017,10 - Vehicle
-Madera - Mariposa CAL FIRE,WRIGHT,5/12/2017,14 - Unknown / Unidentified
-Madera - Mariposa CAL FIRE,SPRING,7/3/2017,2 - Equipment Use
-Madera - Mariposa CAL FIRE,CORONADO,8/13/2017,10 - Vehicle
-Sonoma - Lake - Napa CAL FIRE,CANYON,8/11/2017,14 - Unknown / Unidentified
-Sonoma - Lake - Napa CAL FIRE,TIMM,10/2/2017,14 - Unknown / Unidentified
-Sonoma - Lake - Napa CAL FIRE,WINTER,7/6/2017,14 - Unknown / Unidentified
-Sonoma - Lake - Napa CAL FIRE,NUNS,10/8/2017,14 - Unknown / Unidentified
-Sonoma - Lake - Napa CAL FIRE,PRESSLEY,10/8/2017,14 - Unknown / Unidentified
-Sonoma - Lake - Napa CAL FIRE,37,10/8/2017,14 - Unknown / Unidentified
-Sonoma - Lake - Napa CAL FIRE,YOUNG,10/8/2017,14 - Unknown / Unidentified
-Sonoma - Lake - Napa CAL FIRE,TUBBS,10/8/2017,14 - Unknown / Unidentified
-Sonoma - Lake - Napa CAL FIRE,POCKET,10/8/2017,14 - Unknown / Unidentified
-Sonoma - Lake - Napa CAL FIRE,ATLAS,10/8/2017,14 - Unknown / Unidentified
-Sonoma - Lake - Napa CAL FIRE,SULPHER,10/9/2017,14 - Unknown / Unidentified
-Los Angeles County,PLACERITA,6/25/2017,7 - Arson
-Los Angeles County,LAKE,6/17/2017,14 - Unknown / Unidentified
-Los Angeles County,GORMAN,7/28/2017,14 - Unknown / Unidentified
-Los Angeles County,CREEK,12/5/2017,14 - Unknown / Unidentified
-Los Angeles County,RYE,12/5/2017,14 - Unknown / Unidentified
-Kern County,MING,5/20/2017,14 - Unknown / Unidentified
-Kern County,HAWK,7/7/2017,14 - Unknown / Unidentified
-Kern County,HUDSON,7/18/2017,14 - Unknown / Unidentified
-Kern County,HILL CREST,6/8/2017,14 - Unknown / Unidentified
-Northern CA District - BLM,R-4 PARSNIP,8/30/2017,1 - Lightning
-Northern CA District - BLM,WEST,4/1/2017,5 - Debris
-Northern CA District - BLM,LONG VALLEY,7/11/2017,10 - Vehicle
-Northern CA District - BLM,R-9 SHINN,7/24/2017,1 - Lightning
-Northern CA District - BLM,R-4 RANCH,8/9/2017,1 - Lightning
-Northern CA District - BLM,R-5 STONEY,8/22/2017,1 - Lightning
-Northern CA District - BLM,PEG,8/26/2017,9 - Miscellaneous
-Northern CA District - BLM,LONE,8/29/2017,1 - Lightning
-Northern CA District - BLM,MUD,8/29/2017,1 - Lightning
-Northern CA District - BLM,R-5 SPANISH,8/29/2017,1 - Lightning
-Northern California District BLM,SLINKARD,8/29/2017,1 - Lightning
-Madera - Mariposa CAL FIRE,EASTMAM,9/18/2017,11 - Powerline
-Los Angeles City FD,SKIRBALL,12/6/2017,4 - Campfire
-Riverside CAL FIRE,MANZANITA,6/26/2017,10 - Vehicle
-Fresno-Kings CAL FIRE,MURPHY,9/19/2017,2 - Equipment Use
-Fresno-Kings CAL FIRE,TUMEY,4/29/2017,9 - Miscellaneous
-Fresno-Kings CAL FIRE,GARZA,7/9/2017,10 - Vehicle
-Fresno-Kings CAL FIRE,JAYNE,4/20/2017,2 - Equipment Use
-Fresno-Kings CAL FIRE,PARK,7/17/2017,2 - Equipment Use
-Fresno-Kings CAL FIRE,ELM,5/18/2017,2 - Equipment Use
-Fresno-Kings CAL FIRE,DERRICK,7/2/2017,14 - Unknown / Unidentified
-Fresno-Kings CAL FIRE,CREEK,6/23/2017,5 - Debris
-Fresno-Kings CAL FIRE,COALINGA,8/30/2017,2 - Equipment Use
-Fresno-Kings CAL FIRE,FLAT,8/26/2017,2 - Equipment Use
-Shasta-Trinity National Forest,FORK,8/7/2017,1 - Lightning
-Shasta-Trinity National Forest,HELENA,8/30/2017,9 - Miscellaneous
-Tahoe National Forest,CHILCOOT,8/6/2017,1 - Lightning
-Tahoe National Forest,ELEPHANT,7/29/2017,1 - Lightning
-Stanislaus National Forest,MCCORMICK,8/18/2017,1 - Lightning
-Stanislaus National Forest,CREEK ,9/3/2017,1 - Lightning
-Stanislaus National Forest,DOUGLAS,7/3/2017,1 - Lightning
-Stanislaus National Forest,BUMMERS,9/11/2017,1 - Lightning
-Stanislaus National Forest,WILLOW ,8/18/2017,1 - Lightning
-Six Rivers National Forest,BURNEY,7/26/2017,1 - Lightning
-Six Rivers National Forest,DUTCHMAN,8/7/2017,1 - Lightning
-Six Rivers National Forest,FORKS,7/25/2017,1 - Lightning
-Six Rivers National Forest,HAYPRESS,8/10/2017,1 - Lightning
-Six Rivers National Forest,MARBLE,7/19/2017,9 - Miscellaneous
-Six Rivers National Forest,RIVERS,10/14/2017,5 - Debris
-Six Rivers National Forest,UKONOM,7/25/2017,1 - Lightning
-Six Rivers National Forest,WILLIE,8/7/2017,1 - Lightning
-Sequoia National Forest,SCHAEFFER,6/24/2017,1 - Lightning
-Sequoia National Forest,PIER,8/29/2017,7 - Arson
-Sequoia National Forest,CALDWELL,9/1/2017,1 - Lightning
-Sequoia National Forest,LION,9/25/2017,1 - Lightning
-Sequoia National Forest,HIGHWAY,6/18/2017,9 - Miscellaneous
-Sequoia National Forest,GARDEN,7/30/2017,2 - Equipment Use
-Sequoia National Forest,BELL,6/27/2017,9 - Miscellaneous
-Sierra National Forest,CROWN,9/7/2017,1 - Lightning
-Sierra National Forest,BUTTE,8/7/2017,1 - Lightning
-Sierra National Forest,RAILROAD,8/29/2017,9 - Miscellaneous
-Shasta-Trinity National Forest,BUCK,9/12/2017,1 - Lightning
-Plumas National Forest,POSLIN,8/6/2017,1 - Lightning
-Plumas National Forest,SQUIRREL,9/27/2017,7 - Arson
-Plumas National Forest,MINERVA 5,7/29/2017,7 - Arson
-Plumas National Forest,EUREKA,9/5/2017,1 - Lightning
-Los Padres National Forest,RED,8/2/2017,1 - Lightning
-Los Padres National Forest,WHITTIER,7/8/2017,9 - Miscellaneous
-Ventura County,THOMAS,12/4/2017,9 - Miscellaneous
-Klamath National Forest,CEDAR,8/8/2017,1 - Lightning
-Klamath National Forest,DEEP,9/7/2017,1 - Lightning
-Klamath National Forest,GARDEN,8/9/2017,1 - Lightning
-Klamath National Forest,ISLAND,6/26/2017,1 - Lightning
-Klamath National Forest,LITTLE BUCK,9/7/2017,1 - Lightning
-Klamath National Forest,OAK,8/11/2017,1 - Lightning
-Klamath National Forest,WALLOW,8/11/2017,1 - Lightning
-Eldorado National Forest,TABLE,9/8/2017,1 - Lightning
-Cleveland National Forest,LOST,7/22/2017,4 - Campfire
-Cleveland National Forest,WILDOMAR,10/26/2017,10 - Vehicle
-San Bernardino National Forest,HOLCOMB,6/19/2017,9 - Miscellaneous
-San Bernardino National Forest,BRIDGE 2,7/14/2017,9 - Miscellaneous
-San Bernardino National Forest,MART,6/27/2017,7 - Arson
-Modoc National Forest,DOBE,7/13/2017,1 - Lightning
-Modoc National Forest,RIMROCK,7/24/2017,1 - Lightning
-Modoc National Forest,COVE,7/25/2017,1 - Lightning
-Modoc National Forest,CLARK,7/26/2017,1 - Lightning
-Modoc National Forest,STEELE,7/26/2017,1 - Lightning
-Modoc National Forest,LAKE,7/27/2017,1 - Lightning
-Modoc National Forest,CHALK,8/7/2017,1 - Lightning
-Modoc National Forest,JONES,8/23/2017,1 - Lightning
-Modoc National Forest,BOLES,8/23/2017,1 - Lightning
-Modoc National Forest,CANTRALL,7/25/2017,1 - Lightning
-Siskiyou CAL FIRE,BATTLE,6/28/2017,2 - Equipment Use
-Inyo National Forest,GRANT,7/31/2017,1 - Lightning
-Inyo National Forest,INDIAN,8/3/2017,1 - Lightning
-Butte CAL FIRE,SKYWAY,6/16/2017,10 - Vehicle
-Butte CAL FIRE,CHEROKEE,10/8/2017,11 - Powerline
-Butte CAL FIRE,PONDEROSA,8/29/2017,7 - Arson
-Butte CAL FIRE,WALL,7/7/2017,2 - Equipment Use
-Butte CAL FIRE,SODA,9/28/2017,1 - Lightning
-Butte CAL FIRE,HONEY,10/9/2017,11 - Powerline
-San Mateo - Santa Cruz CAL FIRE,BEAR,10/16/2017,7 - Arson
-Monterey - San Benito CAL FIRE,PARKFIELD,7/8/2017,11 - Powerline
-San Bernardino CAL FIRE,OAK,11/29/2017,10 - Vehicle
-San Bernardino CAL FIRE,HIGH,7/23/2017,9 - Miscellaneous
-San Bernardino CAL FIRE,BRYANT 2,8/3/2017,7 - Arson
-Amador - El Dorado CAL FIRE,LATROBE,7/26/2017,5 - Debris
-Amador - El Dorado CAL FIRE,RANCH,7/26/2017,2 - Equipment Use
-Amador - El Dorado CAL FIRE,FRENCH,9/17/2017,14 - Unknown / Unidentified
-Amador - El Dorado CAL FIRE,LARGO,7/30/2017,7 - Arson
-Nevada - Yuba - Placer CAL FIRE,CASCADE,10/8/2017,14 - Unknown / Unidentified
-Yosemite National Park,EMPIRE,7/31/2017,1 - Lightning
-Los Angeles City FD,LA TUNA,9/1/2017,14 - Unknown / Unidentified
-Modoc National Forest,PARKER2 ,8/3/2017,1 - Lightning
-Yosemite National Park,SOUTH FORK,8/13/2017,1 - Lightning
-Sonoma - Lake - Napa CAL FIRE,REDWOOD VALLEY,10/8/2017,14 - Unknown / Unidentified
-Rouge River- Siskiyou,ABNEY,8/10/2017,1 - Lightning
-Rouge River- Siskiyou,KNOX,8/11/2017,1 - Lightning
-Camp Pendleton Marine Corps Base,CRISTIANITOS,6/28/2017,9 - Miscellaneous
+DINELY,6/7/2017
+ROADRUNNER,7/30/2017
+ELEPHANT 2,7/20/2017
+TEHAMA,10/30/2017
+JACKSONVILLE,7/29/2017
+MARIA,7/17/2017
+TWIST,7/30/2017
+POINT,10/9/2017
+LUCY,6/14/2017
+OLIVE,7/24/2017
+STONE,7/9/2017
+ALAMO,7/6/2017
+HILL,6/26/2017
+HUASNA,9/20/2017
+POLY,9/26/2017
+CAMP,5/15/2017
+OLIVE,5/2/2017
+FAY,7/5/2017
+HILL,7/29/2017
+LAVERNE,7/18/2017
+BERRY,9/12/2017
+CORAL,9/19/2017
+BALLY,9/3/2017
+FELIPE,7/10/2017
+LARIAT,7/11/2017
+AIR,9/25/2017
+CEBRIAM,6/25/2017
+RUCKER,9/29/2017
+WASIOJA,5/20/2018
+LAMB,5/25/2017
+OPERA,4/30/2017
+ROSE,7/31/2017
+PALMER,9/2/2017
+MIAS,8/14/2017
+BLAINE,8/13/2017
+CANYON I,9/25/2017
+CANYON II,10/9/2017
+PLEASANT,8/30/2017
+BEALE,8/20/2017
+LOBO,10/8/2017
+LILAC,12/7/2017
+JENNINGS 2,7/11/2017
+GATE,5/20/2017
+ECLIPSE,8/21/2017
+BORDER 6,9/1/2017
+PEAK,9/3/2017
+OAKWOOD,6/10/2017
+MISSION,9/3/2017
+DETWILER,7/16/2017
+BEN,6/28/2017
+WRIGHT,5/12/2017
+SPRING,7/3/2017
+CORONADO,8/13/2017
+CANYON,8/11/2017
+TIMM,10/2/2017
+WINTER,7/6/2017
+NUNS,10/8/2017
+PRESSLEY,10/8/2017
+37,10/8/2017
+YOUNG,10/8/2017
+TUBBS,10/8/2017
+POCKET,10/8/2017
+ATLAS,10/8/2017
+SULPHER,10/9/2017
+PLACERITA,6/25/2017
+LAKE,6/17/2017
+GORMAN,7/28/2017
+CREEK,12/5/2017
+RYE,12/5/2017
+MING,5/20/2017
+HAWK,7/7/2017
+HUDSON,7/18/2017
+HILL CREST,6/8/2017
+R-4 PARSNIP,8/30/2017
+WEST,4/1/2017
+LONG VALLEY,7/11/2017
+R-9 SHINN,7/24/2017
+R-4 RANCH,8/9/2017
+R-5 STONEY,8/22/2017
+PEG,8/26/2017
+LONE,8/29/2017
+MUD,8/29/2017
+R-5 SPANISH,8/29/2017
+SLINKARD,8/29/2017
+EASTMAM,9/18/2017
+SKIRBALL,12/6/2017
+MANZANITA,6/26/2017
+MURPHY,9/19/2017
+TUMEY,4/29/2017
+GARZA,7/9/2017
+JAYNE,4/20/2017
+PARK,7/17/2017
+ELM,5/18/2017
+DERRICK,7/2/2017
+CREEK,6/23/2017
+COALINGA,8/30/2017
+FLAT,8/26/2017
+FORK,8/7/2017
+HELENA,8/30/2017
+CHILCOOT,8/6/2017
+ELEPHANT,7/29/2017
+MCCORMICK,8/18/2017
+CREEK ,9/3/2017
+DOUGLAS,7/3/2017
+BUMMERS,9/11/2017
+WILLOW ,8/18/2017
+BURNEY,7/26/2017
+DUTCHMAN,8/7/2017
+FORKS,7/25/2017
+HAYPRESS,8/10/2017
+MARBLE,7/19/2017
+RIVERS,10/14/2017
+UKONOM,7/25/2017
+WILLIE,8/7/2017
+SCHAEFFER,6/24/2017
+PIER,8/29/2017
+CALDWELL,9/1/2017
+LION,9/25/2017
+HIGHWAY,6/18/2017
+GARDEN,7/30/2017
+BELL,6/27/2017
+CROWN,9/7/2017
+BUTTE,8/7/2017
+RAILROAD,8/29/2017
+BUCK,9/12/2017
+POSLIN,8/6/2017
+SQUIRREL,9/27/2017
+MINERVA 5,7/29/2017
+EUREKA,9/5/2017
+RED,8/2/2017
+WHITTIER,7/8/2017
+THOMAS,12/4/2017
+CEDAR,8/8/2017
+DEEP,9/7/2017
+GARDEN,8/9/2017
+ISLAND,6/26/2017
+LITTLE BUCK,9/7/2017
+OAK,8/11/2017
+WALLOW,8/11/2017
+TABLE,9/8/2017
+LOST,7/22/2017
+WILDOMAR,10/26/2017
+HOLCOMB,6/19/2017
+BRIDGE 2,7/14/2017
+MART,6/27/2017
+DOBE,7/13/2017
+RIMROCK,7/24/2017
+COVE,7/25/2017
+CLARK,7/26/2017
+STEELE,7/26/2017
+LAKE,7/27/2017
+CHALK,8/7/2017
+JONES,8/23/2017
+BOLES,8/23/2017
+CANTRALL,7/25/2017
+BATTLE,6/28/2017
+GRANT,7/31/2017
+INDIAN,8/3/2017
+SKYWAY,6/16/2017
+CHEROKEE,10/8/2017
+PONDEROSA,8/29/2017
+WALL,7/7/2017
+SODA,9/28/2017
+HONEY,10/9/2017
+BEAR,10/16/2017
+PARKFIELD,7/8/2017
+OAK,11/29/2017
+HIGH,7/23/2017
+BRYANT 2,8/3/2017
+LATROBE,7/26/2017
+RANCH,7/26/2017
+FRENCH,9/17/2017
+LARGO,7/30/2017
+CASCADE,10/8/2017
+EMPIRE,7/31/2017
+LA TUNA,9/1/2017
+PARKER2 ,8/3/2017
+SOUTH FORK,8/13/2017
+REDWOOD VALLEY,10/8/2017
+ABNEY,8/10/2017
+KNOX,8/11/2017
+CRISTIANITOS,6/28/2017

@@ -5,16 +5,20 @@
     <title>FireWatch</title>
     <link rel="stylesheet" type="text/css" href="../static/styles/style.css">
     <link href="https:w//fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
-    <link rel= "stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+    <link rel= "stylesheet" href="{{ ('static',filename='styles/style.css') }}">
+    <link rel="icon" href="../static/styles/mascot.png">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBL_tIUt94tecEDNivF6UCmomJevalLPL4&callback=initMap" type="text/javascript"></script>
   </head>
   <body class="base">
       <div class="top">
-          <h1><img class="mascot" src="../static/styles/mascot.png"> FIREWATCH</h1>
+          <h1><img class="mascot" src="../static/styles/mascot.png">FIREWATCH</h1>
               <a href="#">ABOUT</a>
-              <a href ="#">GITHUB</a>
+              <a href="https://github.com/cwelty/FireWatch" target="_blank">GITHUB</a>
       </div>
     <div class="map">
-
+        <p>lorem ipsum</p>
+        <iframe id="gmap" width="600" height="450" frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/view?zoom=5&center=36.7783,-119.4179&key=AIzaSyBL_tIUt94tecEDNivF6UCmomJevalLPL4" allowfullscreen></iframe>
     </div>
   </body>
 </html>
