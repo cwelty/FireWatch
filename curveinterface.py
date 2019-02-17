@@ -8,28 +8,28 @@ def determine_coefficients():
     coefficients = curves.curve.polynomial_regression(input_mat, output_mat)
     return coefficients
 
-# predicts how likely an area is to catch fire. X/Y are PIXEL COORDINATES!!!
-def predict_pixel(x, y):
+# predicts how likely an area is to catch fire. X/Y are GEOGRAPHIC COORDINATES
+def predict(coords):  # coords is a LIST of [x, y]: [[x1,y1], [x2,y2], [x3,y3]]
     coefficients = determine_coefficients()
     biome_coefficient = coefficients[0]
     precipitation_coefficient = coefficients[1]
 
-    coordinate = str(x) + "," + str(y)
     collected_data, fire_data = data.data_collection.collect_data()
-    components = collected_data[coordinate]
-    biome = components[0]
-    precipitation = components[1]
+
+    burn_scores = []
+    for coordinate in coords:
+        y = (float(y) - 32.6) * 52.3  # scale to biome map dimensions
+        x = (-1 * (float(x)) - 114) * 34
+
+        coord = str(x) + "," + str(y)
+        components = collected_data[coord]
+
+        biome = components[0]
+        precipitation = components[1]
     
-    burn_score = biome_coefficient * biome - precipitation_coefficient ** 2/3 * precipitation
-    return burn_score
+        burn_score = biome_coefficient * biome - precipitation_coefficient ** 2/3 * precipitation
+        burn_scores.append(burn_score)
 
-
-# USE THIS!!!! x and y should be your geocoordinates
-def predict_geo(x, y):
-    y = (float(y) - 32.6) * 52.3  # scale to biome map dimensions
-    x = (-1 * (float(x)) - 114) * 34
-    return predict_pixel(x, y)
-    
-
+    return burn_scores # it returns a list of floats, cooresponding to the coordinates inputted
 
 #print(predict_pixel(123, 123))
