@@ -1,3 +1,4 @@
+# reads the fire history data files, returns a dictionary: {"2016": ["Name", "Date"]}
 def parseFireHistory():
     fireDict = {}
 
