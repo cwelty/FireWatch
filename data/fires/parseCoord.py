@@ -1,5 +1,5 @@
 def parseFireCoord2017():
-    with open("fires/2017 Statewide Fire Map.kml", "r") as data2017:
+    with open("data/fires/2017 Statewide Fire Map.kml", "r") as data2017:
         lines = data2017.read() #reads the entire file
 
         lines = lines.split("<Placemark>")
@@ -30,7 +30,7 @@ def parseFireCoord2017():
             results[name.upper()] = coord
 
     fireData = []
-    with open("fires/Fires_100 - 2017.csv", "r") as data2017:
+    with open("data/fires/Fires_100 - 2017.csv", "r") as data2017:
         lines = data2017.readlines()
         for line in lines:
             line = line[:-1]

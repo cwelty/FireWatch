@@ -56,24 +56,24 @@ def color_to_precip_level(rgb):
     ]
 
     precip_inches = [
-        "0-5",
-        "5-10",
-        "10-15",
-        "15-20",
-        "20-25",
-        "25-30",
-        "30-35",
-        "35-40",
-        "40-50",
-        "50-60",
-        "60-70",
-        "70-80",
-        "80-100",
-        "100-120",
-        "120-140",
-        "140-180",
-        "180-200",
-        "null"
+        2.5,
+        7.5,
+        12.5,
+        17.5,
+        22.5,
+        27.5,
+        32.5,
+        37.5,
+        42.5,
+        55,
+        65,
+        75,
+        90,
+        110,
+        130,
+        160,
+        190,
+        0
     ]
 
     precip_diff = []
@@ -89,7 +89,7 @@ def color_to_precip_level(rgb):
 # Will collect the precipitation data and return it:
 # Output: [x, y, precipitation]
 def collect_precip():
-    image = img.imread("precipitation/ca_precip_cleared.png")
+    image = img.imread("data/precipitation/ca_precip_cleared.png")
     image = image.tolist()
 
     precips = []

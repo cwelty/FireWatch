@@ -42,17 +42,17 @@ def color_to_biome(rgb):
     ]
 
     biome_names = [
-        "conifer",
-        "desert",
-        "grassland",
-        "chaparral",
-        "oak",
-        "agriculture",
-        "wetlands",
-        "juniper",
-        "urban",
-        "other",
-        "null"
+        9, #"conifer",
+        .1, #"desert",
+        10, #"grassland",
+        7, #"chaparral",
+        8, #"oak",
+        2, #"agriculture",
+        3, #"wetlands",
+        7, #"juniper",
+        .1, #"urban",
+        .1, #"other",
+        .1 #"null"
     ]
 
     biome_chi = []
@@ -68,7 +68,7 @@ def color_to_biome(rgb):
 # Will collect the biome data and return it:
 # Output: [x, y, biome]
 def collect_biomes():
-    image = img.imread("./biomes/ca_biome_map_cropped.png")
+    image = img.imread("data/biomes/ca_biome_map_cropped.png")
     image = image.tolist()
 
     biomes = []
