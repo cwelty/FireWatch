@@ -9,7 +9,7 @@ body {
     background-image: url("background.png");
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 150%;
     overflow-y: scroll;
     padding-right: 17px;
 }
@@ -146,8 +146,8 @@ p {
     display: inline;
     padding-right: 0.5em;
 }
-.map {
-    height: 100%;
+.mapbox {
+    height: 130%;
     padding-top: 5%;
     padding-bottom: 5%;
     margin: 0 auto;
@@ -165,4 +165,17 @@ p {
 }
 #loginbtn {
     margin: 0;
+}
+#map {
+  width: 90%;
+  z-index: 5;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+
+#results {
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
 }
