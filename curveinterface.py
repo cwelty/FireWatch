@@ -1,5 +1,5 @@
-import data.data_collection
 import curves.curve
+import data.data_collection
 import math
 
 # This file outlines a simple case of calculating fire risk coefficients!!!! 
