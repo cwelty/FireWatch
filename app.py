@@ -7,8 +7,4 @@ app = Flask(__name__)
 def index():
 	return render_template("index.html")
 
-@app.route("/test")
-def index2():
-	return "yee haw"
-
 app.run()
