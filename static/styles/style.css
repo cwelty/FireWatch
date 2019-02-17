@@ -175,6 +175,7 @@ p {
 }
 
 #results {
+    padding-top: 30px;
     width: 70%;
     margin: 0 auto;
     height: auto;
