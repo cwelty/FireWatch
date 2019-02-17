@@ -18,8 +18,8 @@ def predict(coords):  # coords is a LIST of [x, y]: [[x1,y1], [x2,y2], [x3,y3]]
 
     burn_scores = []
     for coordinate in coords:
-        y = (float(y) - 32.6) * 52.3  # scale to biome map dimensions
-        x = (-1 * (float(x)) - 114) * 34
+        y = (float(coordinate[1]) - 32.6) * 52.3  # scale to biome map dimensions
+        x = (-1 * (float(coordinate[0])) - 114) * 34
 
         coord = str(x) + "," + str(y)
         components = collected_data[coord]
