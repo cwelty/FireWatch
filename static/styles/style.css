@@ -1,0 +1,45 @@
+body {
+    overflow: hidden;
+    font-family: "Pontano Sans", sans-serif;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200%;
+}
+.base {
+    color: white;
+    background-size: cover;
+    height: 200%;
+}
+.top {
+    padding-top: 5%;
+}
+.base h1 {
+    letter-spacing: 10px;
+    padding-left: 15%;
+    padding-right: 20%;
+    display: inline;
+}
+a {
+    letter-spacing: 2px;
+    padding-right: 5%;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    display: inline;
+
+}
+.mascot {
+    width: 1.5em;
+    display: inline;
+}
+.map {
+    margin: 0 auto;
+    background: white;
+    width: 70%;
+    margin-top: 5%;
+    padding-top: 90%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

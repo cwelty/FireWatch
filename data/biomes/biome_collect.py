@@ -26,7 +26,7 @@ def color_to_biome(rgb):
     biome_juniper = [1, 2, 7]
     biome_urban = [226, 226, 226]
     biome_other = [129, 127, 132]
-    biome_black = [0, 0, 0]
+    biome_null = [255, 255, 255]
 
     biomes = [biome_conifer,
                 biome_desert,
@@ -38,7 +38,7 @@ def color_to_biome(rgb):
                 biome_juniper,
                 biome_urban,
                 biome_other,
-                biome_black
+                biome_null
     ]
 
     biome_names = [
@@ -52,7 +52,7 @@ def color_to_biome(rgb):
         "juniper",
         "urban",
         "other",
-        "black"
+        "null"
     ]
 
     biome_chi = []
@@ -61,7 +61,6 @@ def color_to_biome(rgb):
         biome_chi.append(dist_lists(rgb, biome))
 
     biome = biome_names[biome_chi.index(min(biome_chi))]
-    print(biome)
     return biome
     
 
