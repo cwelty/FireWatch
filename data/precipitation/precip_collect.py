@@ -89,7 +89,7 @@ def color_to_precip_level(rgb):
 # Will collect the precipitation data and return it:
 # Output: [x, y, precipitation]
 def collect_precip():
-    image = img.imread("ca_precip_cleared.png")
+    image = img.imread("precipitation/ca_precip_cleared.png")
     image = image.tolist()
 
     precips = []

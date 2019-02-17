@@ -68,7 +68,7 @@ def color_to_biome(rgb):
 # Will collect the biome data and return it:
 # Output: [x, y, biome]
 def collect_biomes():
-    image = img.imread("ca_biome_map_cropped.png")
+    image = img.imread("./biomes/ca_biome_map_cropped.png")
     image = image.tolist()
 
     biomes = []
